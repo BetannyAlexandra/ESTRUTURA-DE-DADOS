@@ -7,7 +7,7 @@ int main(void) {
     printf("informe a quantidade de alunos\n");
     scanf("%d",&tam); 
    nota_aluno=(float*)malloc(tam*sizeof(float));
-   
+   z
  for (int i = 0; i < tam; i++) {
     printf("Informe as notas dos alunos\n");
     scanf("%f", &nota_aluno[i]);
