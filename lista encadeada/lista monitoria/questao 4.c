@@ -4,7 +4,7 @@
 typedef struct{
     int matricula;
     char nome[30];
-    int notas[3];
+    int notas[4];
 }estudante;
 
 int main(){
