@@ -33,7 +33,7 @@ float valor_medio(celula *head){
     cont++;
      aux = aux->prox;
     }
-   return total/cont;
+   return total;
 
 }  
 
