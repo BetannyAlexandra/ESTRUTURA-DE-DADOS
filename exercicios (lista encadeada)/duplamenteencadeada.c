@@ -26,12 +26,13 @@ void inserirfim(celula *head,int valor)
        { 
        nova->ant=aux;
        aux->prox=nova;
+         return;
        }
       aux=aux->prox; 
       }
+}
 
-    
-
+void inserirmeio(){
 
 }
 void imprimir(celula *aux)
@@ -77,7 +78,7 @@ int main(){
   inseririnicio(&head,valor);
   printf("informe o valor que deseja inserir no fimm\n");
   scanf("%d",&valor2);
-  /*inserirfim(&head,valor2)*/;
+  inserirfim(head,valor2);
    printf("valores inseridos\n");
   imprimir(head);
     return 0;
